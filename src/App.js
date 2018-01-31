@@ -133,7 +133,12 @@ function FullWidthGrid(props) {
   return (
     <div className={classes.root}>
       <Grid container spacing={0}>
-        <Grid item xs={12} sm={2}>
+        <Grid item xs={12}>
+          <Paper className={classes.paper}>
+            <h1 className={classes.mainName}>Scott Straley</h1>
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={4} lg={3} xl={2}>
           <Paper className={classes.paper}>
             <h2 className={classes.sidebarTitle}>Contact</h2>
             <ul className={classes.sidebarList}>
@@ -180,10 +185,7 @@ function FullWidthGrid(props) {
             ]} className={classes.chip} />
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={10}>
-          <Paper className={classes.paper}>
-            <h1 className={classes.mainName}>Scott Straley</h1>
-          </Paper>
+        <Grid item xs={12} md={8} lg={9} xl={10}>
           <Paper className={classes.paper}>
             <h2 className={classes.mainTitle}>Senior Architect &amp; Engineer</h2>
             <p className={classes.mainText}>Versatile and experienced full-stack architect and engineer with an emphasis on producing state-of-the-art front-end solutions.  Over twenty years experience developing and operating robust high-traffic internet applications in a wide variety of industries.  Experience with all phases of development and operations.</p>
