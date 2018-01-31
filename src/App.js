@@ -69,6 +69,11 @@ const styles = theme => ({
     	content: '"code "',
     }
   },
+  pdf: {
+    '&:before': {
+    	content: '"picture_as_pdf "',
+    }
+  },
   chip: {
     fontSize: 14,
     margin: 2,
@@ -146,6 +151,7 @@ function FullWidthGrid(props) {
               <li className={`${classes.listItem} ${classes.address}`}><a href="https://www.google.com/maps/place/30°09%2750.5%22N+97°43%2717.9%22W">7001 Brick Slope Path<br/>Austin, TX 78744</a></li>
               <li className={`${classes.listItem} ${classes.email}`}><a href="mailto:scottstraley@gmail.com">scottstraley@gmail.com</a></li>
               <li className={`${classes.listItem} ${classes.github}`}><a href="https://github.com/straley">github.com/straley</a></li>
+              <li className={`${classes.listItem} ${classes.pdf}`}><a href="/scottstraley.pdf">Printable Resume</a></li>
             </ul>
           </Paper>
           <Paper className={classes.paper}>
