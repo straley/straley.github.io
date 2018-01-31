@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "./copy-down.sh"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
