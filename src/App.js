@@ -181,7 +181,7 @@ function FullWidthGrid(props) {
           <Paper className={classes.paper}>
             <h2 className={classes.sidebarTitle}>Tools</h2>
             <MiniChip label={[
-              "Git", "Jira", "Akamai", "Apache", "Nginx", "Webpack", "Docker", "Doku"
+              "Git", "Jira", "Akamai", "Apache", "Nginx", "Webpack", "Docker", "Dokku"
             ]} className={classes.chip} />
           </Paper>
           <Paper className={classes.paper}>
